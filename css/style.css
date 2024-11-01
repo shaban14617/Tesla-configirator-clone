@@ -1,0 +1,10 @@
+.btn-selected {
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    padding: 8px;
+}
+
+.btn-selected:hover {
+    transform: scale(1) !important;
+}
